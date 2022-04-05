@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animacija</title>
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #050210;
+            
+
+
+        }
+        
+        
+        .krug {
+            width: 480px;
+            height: 480px;
+            background: linear-gradient(#fb5dad, #55fb9f, #b97aff);
+            border-radius: 240px;
+            position: absolute;
+            top: 28%;
+            left: 38%;
+            
+
+            animation: krug 1s linear 0s infinite forwards running;
+        
+
+
+            
+        }
+        
+        .crni-krug {
+            width: 410px;
+            height: 410px;
+            margin: 35px 35px 35px 35px;
+            background-color: #050210;
+            border-radius: 250px;
+            position: absolute;
+        }
+
+
+        
+        
+
+        
+        
+        @keyframes krug {
+
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+
+        
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="krug">
+            <div class="crni-krug"></div>
+            <div class="krugisp"></div>
+        </div>
+    </div>
+
+
+
+    
+</body>
+</html>
